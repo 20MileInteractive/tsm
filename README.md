@@ -1,4 +1,4 @@
-tsm
-===
+project-starter-template
+========================
 
-Tradeshow Management
+Template for web projects with Hammer and Foundation4

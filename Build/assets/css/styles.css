@@ -3765,100 +3765,34 @@ table {
   .f-dropdown.large {
     max-width: 800px; }
 
-.style-guide section {
-  padding: 1em 0; }
-
-.style-title {
-  padding: 1em;
-  font-size: 1em;
-  background: #e9e9e9;
-  margin-bottom: 2em; }
-
-.style-subtitle {
-  font-size: 1em;
-  color: #cccccc;
-  /*text-align: right;*/
-  margin-bottom: 1em; }
-
-.style-info {
-  background: #f1f1f1;
-  overflow: hidden;
+header img {
+  width: 90%;
   display: block;
-  padding: .5em;
-  margin-bottom: 2em;
-  color: #333;
-  font-family: Arial; }
-
-.style-info dt, .style-info dd {
-  float: left;
-  padding: 0;
-  display: block;
-  margin: 0; }
-
-.style-info dt {
-  margin-right: .5em;
-  font-weight: normal; }
-
-.style-info dd {
-  margin-right: 1.5em; }
-
-div.typography {
-  max-width: 480px; }
-
-.color-styles ul.colors {
-  overflow: hidden;
-  list-style-type: none; }
-
-.color-styles ul.colors li {
-  display: block;
-  padding: 1em;
-  line-height: 1.5em;
-  color: #fff;
-  list-style-type: none;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 400px; }
+header nav {
   text-align: center; }
+  header nav a {
+    display: inline-block;
+    padding: 1rem; }
 
-.color-styles ul.accents li, .color-styles ul.actions li {
-  padding: 1em;
-  width: 3em;
-  float: left; }
-
-.neutral-one {
-  background: #f1f1f1; }
-
-.neutral-two {
-  background: #cccccc; }
-
-.accent-one {
-  background: #41b6e6; }
-
-.accent-two {
-  background: #003057; }
-
-.accent-three {
-  background: #f1b434; }
-
-.action-one {
-  background: #2ba6cb; }
-
-.icons img {
-  margin-right: 2em; }
-
-figure {
-  background: #F4EFEA;
-  margin-bottom: 1em;
-  width: 576px; }
-
-figcaption {
-  font-family: open-sans;
-  font-size: .875em;
-  padding: .5em;
-  color: #493B2F; }
-
-footer {
-  margin: 5em 0 10em; }
-
-footer p {
-  font-size: 0.6875em;
-  text-align: center;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+@media only screen and (min-width: 50rem) {
+  header {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1024px; }
+    header img {
+      float: left; }
+    header nav {
+      float: right; }
+      header nav a {
+        display: inline; } }
+.home-featured {
+  clear: both; }
+  .home-featured img {
+    margin-left: -8%; }
+  .home-featured section {
+    width: 90%;
+    margin: 1rem auto; }
+  .home-featured ul {
+    list-style-position: inside; }
